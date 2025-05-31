@@ -1,0 +1,9 @@
+[LOCAL]
+PDF2HEX : python pdf_hex_converter.py tohex dokumen.pdf hasil_hex.txt
+HEX2PDF : python pdf_hex_converter.py topdf hasil_hex.txt hasil_kembali.pdf
+
+[DB POSTGRESQL]
+UPLOAD : python pdf_hex_converter_db.py insert dokumen.pdf dokumen_keluarga.pdf DOC123 MEM456
+DOWNLOAD : python pdf_hex_converter_db.py fetch 1 hasil_output.pdf
+
+
