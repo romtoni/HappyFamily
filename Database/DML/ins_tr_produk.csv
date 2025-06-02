@@ -1,6 +1,6 @@
 "id","tgl_create","user_create","tgl_modify","user_modify","ket_modify","kd_produk","nama_produk","satuan","kd_jenis_produk","status_aktif","ket_status"
-1,"2025-06-02 11:00:23.115691","SYSTEM",NULL,NULL,NULL,"SNK1","Kacang Atom Garuda 100gr","gram","snack","Y",NULL
-2,"2025-06-02 11:00:23.115691","SYSTEM",NULL,NULL,NULL,"FST1","Beras Super Indo 5kg","kilogram","foodstaple","Y",NULL
-3,"2025-06-02 11:00:23.115691","SYSTEM",NULL,NULL,NULL,"BVR1","Aqua 600ml","mililiter","beverage","Y",NULL
-4,"2025-06-02 11:00:23.115691","SYSTEM",NULL,NULL,NULL,"DRY1","Susu Ultra 150ml","mililiter","dairy","Y",NULL
-5,"2025-06-02 11:00:23.115691","SYSTEM",NULL,NULL,NULL,"CDM1","Cabe Kriting 500gr","gram","condiment","Y",NULL
+1,"2025-06-02 11:00:23.115691","SYSTEM",NULL,NULL,NULL,"SNK1","Kacang Atom Garuda 100gr","gram","SNACK","Y",NULL
+2,"2025-06-02 11:00:23.115691","SYSTEM",NULL,NULL,NULL,"FST1","Beras Super Indo 5kg","kilogram","FOODSTAPLE","Y",NULL
+3,"2025-06-02 11:00:23.115691","SYSTEM",NULL,NULL,NULL,"BVR1","Aqua 600ml","mililiter","BEVERAGE","Y",NULL
+4,"2025-06-02 11:00:23.115691","SYSTEM",NULL,NULL,NULL,"DRY1","Susu Ultra 150ml","mililiter","DAIRY","Y",NULL
+5,"2025-06-02 11:00:23.115691","SYSTEM",NULL,NULL,NULL,"CDM1","Cabe Kriting 500gr","gram","CONDIMENT","Y",NULL
