@@ -12,6 +12,7 @@ CREATE TABLE IF NOT EXISTS public.tr_expense
     ket_modify character varying(255) COLLATE pg_catalog."default",
     kd_expense character varying(20) COLLATE pg_catalog."default",
     nama_pengeluaran character varying(255) COLLATE pg_catalog."default",
+    kd_jenis_pengeluaran character varying(20) COLLATE pg_catalog."default",
     status_aktif character varying(1) COLLATE pg_catalog."default" DEFAULT 'Y'::character varying,
     ket_status character varying(255) COLLATE pg_catalog."default",
     CONSTRAINT tr_expense_pkey PRIMARY KEY (id)
