@@ -10,4 +10,7 @@ CREATE SEQUENCE IF NOT EXISTS public.tm_member_expense_id_seq
     CACHE 1;
 
 ALTER SEQUENCE public.tm_member_expense_id_seq
+    OWNED BY public.tm_member_expense.id;
+
+ALTER SEQUENCE public.tm_member_expense_id_seq
     OWNER TO postgres;
