@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS public.tm_member_dokumen
     tgl_modify timestamp without time zone,
     user_modify character varying(20) COLLATE pg_catalog."default",
     ket_modify character varying(255) COLLATE pg_catalog."default",
-    kd_dokumen character varying(10) COLLATE pg_catalog."default",
+    kd_dokumen character varying(20) COLLATE pg_catalog."default",
     kd_member character varying(20) COLLATE pg_catalog."default",
     binary_file bytea,
     link_file text COLLATE pg_catalog."default",

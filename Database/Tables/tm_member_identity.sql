@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS public.tm_member_identity
     user_modify character varying(20) COLLATE pg_catalog."default",
     ket_modify character varying(20) COLLATE pg_catalog."default",
     kd_member character varying(20) COLLATE pg_catalog."default",
-    kd_identity_type character varying(10) COLLATE pg_catalog."default",
+    kd_identity_type character varying(20) COLLATE pg_catalog."default",
     no_identitas character varying(30) COLLATE pg_catalog."default",
     is_aktif character varying(1) COLLATE pg_catalog."default" DEFAULT 'Y'::character varying,
     CONSTRAINT tm_member_identity_pkey PRIMARY KEY (id)

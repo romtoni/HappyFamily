@@ -1,1 +1,2 @@
 20250527 - Re-initialize project
+20250602 - Add table expenses, products, vendors
