@@ -1,8 +1,8 @@
--- Table: public.tm_produk_price
+-- Table: public.tm_produk_price_promo
 
-DROP TABLE IF EXISTS public.tm_produk_price;
+--DROP TABLE IF EXISTS public.tm_produk_price_promo;
 
-CREATE TABLE IF NOT EXISTS public.tm_produk_price
+CREATE TABLE IF NOT EXISTS public.tm_produk_price_promo
 (
     id serial,
     tgl_create timestamp without time zone DEFAULT CURRENT_TIMESTAMP,
@@ -12,13 +12,14 @@ CREATE TABLE IF NOT EXISTS public.tm_produk_price
     ket_modify character varying(255) COLLATE pg_catalog."default",
     kd_produk character varying(20) COLLATE pg_catalog."default",
     kd_vendor character varying(20) COLLATE pg_catalog."default",
-    harga_normal integer,
+    kd_promo character varying(20) COLLATE pg_catalog."default",
+    persen_promo integer,
     tgl_berlaku_dari timestamp without time zone,
     tgl_berlaku_sampai timestamp without time zone,
-    CONSTRAINT tm_produk_price_pkey PRIMARY KEY (id)
+    CONSTRAINT tm_produk_price_promo_pkey PRIMARY KEY (id)
 )
 
 TABLESPACE pg_default;
 
-ALTER TABLE IF EXISTS public.tm_produk_price
+ALTER TABLE IF EXISTS public.tm_produk_price_promo
     OWNER to postgres;
