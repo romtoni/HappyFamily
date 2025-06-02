@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS public.tm_member_role
     user_modify character varying(20) COLLATE pg_catalog."default",
     ket_modify character varying(20) COLLATE pg_catalog."default",
     kd_member character varying(20) COLLATE pg_catalog."default",
-    kd_family_role character varying(6) COLLATE pg_catalog."default",
+    kd_family_role character varying(20) COLLATE pg_catalog."default",
     kd_member_group character varying(20) COLLATE pg_catalog."default",
     CONSTRAINT tm_member_role_pkey PRIMARY KEY (id)
 )
