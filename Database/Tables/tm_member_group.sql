@@ -4,7 +4,7 @@
 
 CREATE TABLE IF NOT EXISTS public.tm_member_group
 (
-    id integer NOT NULL DEFAULT nextval('tm_member_group_id_seq'::regclass),
+    id serial,
     tgl_create timestamp without time zone DEFAULT CURRENT_TIMESTAMP,
     user_create character varying(20) COLLATE pg_catalog."default" DEFAULT 'SYSTEM'::character varying,
     tgl_modify timestamp without time zone,
